@@ -1,17 +1,22 @@
 body {
 	background-color: LightGray;
 }
-.top-navigation {
-	background-color: #fff;
-}
-
-.top-navigation > .content {
-	width: 970px;
-	height: 70px;
-	margin: 0 auto;
-}
 
 div {
 	border: 1px solid Chocolate;
+	height: 70px;
+}
 
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.top-navigation > .links {
+	float: right;
 }
