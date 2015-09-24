@@ -1,23 +1,33 @@
 html {
-	-webkit-font-smoothing: antialiased;
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*:before, *:after {
-	box-sizing: inherit;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
-	background-color: LightGray;
+    background-color: LightGray;
 }
 
-div {
-	border: 1px solid Chocolate;
-	height: 70px;
-	background-color: white;
+.top-navigation div {
+    border: 1px solid Chocolate;
 }
 
 /* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+    height: 70px;
+    padding: 0px 15px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
+}
+
 .top-navigation .links {
     float: right;
     font-family: 'Roboto', sans-serif;
@@ -29,8 +39,6 @@ div {
 .top-navigation .links li {
     display: inline-block;
     margin-left: 25px;
-    margin-top: 4px;
-    padding-right: 50px;
 }
 .top-navigation .links .active {
     color: #4c5058;
@@ -41,7 +49,47 @@ div {
     color: #333333;
 }
 
-.logo {
-	margin-top: 17px;
-	margin-left: 10px;
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
 }
+
+.introduction .content
+{
+    text-align:center ;
+    display: block;
+    margin-top: 9em;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+}
+
+.introduction .content h1 {
+ 
+    font-size: 4.3em;
+
+}
+
+.introduction .content h3{
+
+    font-size: 2em;
+}
+
+.introduction .content > button {
+
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+
+
