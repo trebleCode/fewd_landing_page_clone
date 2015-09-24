@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: LightGray;
+    background-color: White;
 }
 
 .top-navigation div {
@@ -17,11 +17,14 @@ body {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 .top-navigation > .content {
     height: 70px;
-    padding: 0px 15px;
-
+    padding: 0 20% 0 20%;
+    
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #838994;
@@ -60,10 +63,11 @@ body {
 
 .introduction .content
 {
-    text-align:center ;
+    text-align: center;
     display: block;
-    margin-top: 9em;
+    margin-top: 12em;
     font-family: 'Roboto', sans-serif;
+
     color: #FFFFFF;
     -webkit-font-smoothing: antialiased;
 }
@@ -71,12 +75,14 @@ body {
 .introduction .content h1 {
  
     font-size: 4.3em;
+    font-weight: 100;
 
 }
 
 .introduction .content h3{
 
     font-size: 2em;
+    font-weight: 100;
 }
 
 .introduction .content > button {
@@ -92,4 +98,29 @@ body {
     font-size: 1.125rem;
 }
 
+.cases {
+   text-align: center;
+    font-size: 2.7em;
+    margin-top: 1.5em;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
 
+    color: black;
+    -webkit-font-smoothing: antialiased;
+}
+
+.devices{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+
+    /* styles to assist with debugging */
+    box-sizing: border-box;
+    
+    height: 4em;
+    margin: auto 0;
+}
+
+.devices h3{
+    font-weight: 100
+}
