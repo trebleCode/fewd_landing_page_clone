@@ -124,3 +124,48 @@ body {
 .devices h3{
     font-weight: 100
 }
+
+hr {
+   display: block;
+   position: relative;
+   padding: 0;
+   height: 0;
+   margin: 80px auto;
+   width: 65%;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   border-top: 1px solid #aaaaaa;
+   border-bottom: 1px solid #ffffff;
+}
+
+.footer .footer-div-text {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 8px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+}
+
+.footer .footer-div-text h1
+{
+    margin-bottom: 30px;
+}
+
+.footer .footer-div-social
+{
+    text-align: center;
+}
+
+.footer .footer-div-social img
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.copyright p {
+    text-align: center;
+    color: #838994;
+}
