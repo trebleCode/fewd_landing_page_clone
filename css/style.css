@@ -1,3 +1,12 @@
+html {
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+
+*:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
 	background-color: LightGray;
 }
@@ -5,18 +14,34 @@ body {
 div {
 	border: 1px solid Chocolate;
 	height: 70px;
+	background-color: white;
 }
 
 /* Navigation Section */
-.top-navigation {
-    background-color: #fff;
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
 }
-.top-navigation > .content {
-    width: 970px;
-    height: 70px;
-    margin: 0 auto;
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 4px;
+    padding-right: 50px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
 }
 
-.top-navigation > .links {
-	float: right;
+.logo {
+	margin-top: 17px;
+	margin-left: 10px;
 }
